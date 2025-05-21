@@ -1,0 +1,13 @@
+CREATE TABLE studentinfo(id INTEGER PRIMARY KEY AUTOINCREMENT,
+stname TEXT,
+age INTEGER,
+class INTEGER,
+address TEXT);
+
+INSERT INTO studentinfo (stname,age,class,address) VALUES
+('vishal',22,11,'rajkot'),
+('vishwa',23,12,'rajkot'),
+('harit',18,10,'ahmedabad'),
+('geetaben',25,15,'rajkot');
+
+SELECT * FROM studentinfo;
